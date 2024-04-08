@@ -17,5 +17,10 @@ const config: StorybookConfig = {
   docs: {
     autodocs: false,
   },
+  build: {
+    test: {
+      disableMDXEntries: true,
+    },
+  },
 };
 export default config;
